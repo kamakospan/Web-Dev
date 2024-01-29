@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Links for learning</title>
+    </head>
+    <body>
+        
+        <h1>Links for learning about Kazakhstan</h1>
+        
+        <ul>
+            <li> <a href="https://en.wikipedia.org/wiki/Kazakhstan"> What is Kazakhstan?
+            </a> </li>
+            <li><a href = "https://www.youtube.com/watch?v=DPm2t5Ins4A"> What is the capital of Kazakhstan? </a></li>
+            <li><a href = "https://caravanistan.com/kazakhstan/books/">History of Kazakhstan</a></li>
+        </ul>
+
+        <a href= "https://www.intrepidescape.com/reasons-to-visit-kazakhstan/"> <img src = "https://www.kasandbox.org/programming-images/cute/Heart.png"> </a>
+        
+    </body>
+</html>
