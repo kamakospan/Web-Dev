@@ -1,0 +1,477 @@
+<html>
+
+<head>
+    <style>
+        html,
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        header {
+            top: 0;
+            font-size: 14px;
+            }
+
+        header a {
+            margin: 0 10px 0 10px;
+            color: black;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            color: white;
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .light {
+            color: black;
+        }
+
+        button {
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 4%;
+            color: rgba(93,91,212,255);
+        }
+
+        #downloadbutton {
+            background-color: rgba(93,91,212,255);
+            border-width: 2px;
+            border-color: white;
+            color: white;
+        }
+
+        button:hover {
+            text-decoration: underline;
+        }
+
+        .rightcornerlinks {
+            color: rgba(93,91,212,255);
+        }
+
+        #signinlink {
+            border-width: 1 px;
+            border-color: rgba(93,91,212,255);
+        }
+
+        .galery {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 100px 0 40px 0;
+        }
+
+        .card {
+            width: 20%;
+            margin: 0 10px 0 10px;
+        }
+
+        .card img {
+            width: 20%;
+        }
+
+        .card h1 {
+            font-size: 18px;
+            font-weight:lighter;
+            }
+
+        .card p {
+            font-size: medium;
+        }
+
+        .link {
+            color: #0067b8;
+            display: flex;
+            align-items: center;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px 20px 0 20px;
+        }
+
+        footer h1 {
+            font-size: 16px;
+            color: #313032;
+        }
+
+        footer a {
+            font-size: 12px;
+            color: #736f77;
+            margin: 5px 5px 5px 5px;
+        }
+
+        footer div {
+            margin: 20px 0 20px 0;
+        }
+
+        footer div div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Socials {
+    display: flex;
+    align-items: center;
+}
+
+.Socials p {
+    margin-right: 10px; 
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+#signUpButton {
+    align-self: center;
+    background-color: rgba(93, 91, 212, 255);
+    border-width: 2px;
+    border-color: none;
+    color: white;
+    width: auto;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.signup-container h1,
+.signup-container button {
+    margin: 10px auto;
+}
+
+
+
+    </style>
+</head>
+
+<body>
+    <header
+        style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin:0 40px 0 40px">
+        <div style="display: flex; align-items: center; padding: 10px 0 10px 0;">
+            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                style="height: 25px; margin-right: 10px;">
+            <a>Products</a>
+            <a>Features</a>
+            <a>Pricing</a>
+            <a>Industries</a>
+            <a>Resources</a>
+            <a>Support</a>
+        </div>
+
+        <div class="rightcornerlinks" style="display: row; align-items: center; padding: 10px 0 10px 0;">
+            <a>Download Teams</a>
+            <a id = 'signinlink'> Sign In</a>
+        </div>
+
+    </header>
+    
+
+    <div class="banner">
+        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blade002_Hero_1920x720_2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=95&fit=constrain"
+            style="width: 100%; z-index: -5;">
+        <div style="width:40%; position: absolute; margin-left: 10%; text-align: left;">
+            <h1>The new Microsoft Teams is now generally available</h1>
+            <p>Collaborate more effectively with a faster, simpler, and smarter Teams.</p>
+            <div display: row;>
+                <button>Get Started</button>
+                <button id = "downloadbutton">Download Now</button>
+            </div>
+        </div>        
+    </div>
+</div>
+
+    <div class="signup-container">
+        <h1>New to Teams?</h1>
+        <button id="signUpButton">Sign up now</button>
+    </div>    
+
+
+    <h1>Learn how to use Teams</h1>
+
+    <div class="galery">
+        <div class="card">
+            <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon_01-_0_purple-check-circle_RWGwMr?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=80&hei=80&qlt=100&fmt=png-alpha&fit=constrain" 
+            width: 1px>            
+            <div style="width: 95%;">
+                <h1>Get Started</h1>
+                <p>Learn how to create and manage teams and channels, schedule a meeting, turn on language translations, and share files.
+                </p>
+                <div class="link">
+                    <a>Start demo</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon_02-_0_purple_people_RWGrAe?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=88&hei=80&qlt=100&fmt=png-alpha&fit=constrain">
+            <div style="width: 95%;">
+                <h1>Meetings</h1>
+                <p>Learn how to transition from a chat to a call for deeper collaboration, manage calendar invites, join a meeting directly in Teams, and use background effects.
+                </p>
+                <div class="link">
+                    <a>Start demo</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon_03-_0_purple_lightbulb_RWGz9I?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=80&hei=80&qlt=100&fmt=png-alpha&fit=constrain">
+            <div style="width: 95%;">
+                <h1>Tips and tricks</h1>
+                <p>Learn how to set your availability status, stay up to date with the activity feed, and create group chats and coauthor shared files for real-time collaboration.
+                </p>
+                <div class="link">
+                    <a>Watch tips and tricks</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon_04-_0_purple_backpack_RWGwMu?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=80&hei=80&qlt=100&fmt=png-alpha&fit=constrain">
+            <h1>Teams for Education</h1>
+            <p>Help drive the transition to inclusive online or hybrid learning, build confidence with remote learning tools, and maintain student engagement.
+            </p>
+            <div class="link">
+                <a>Watch learning tools</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </div>
+        </div>
+
+    </div>
+
+    <h1>Explore trainings, tutorials and features</h1>
+
+    <div class="galery">
+        <div class="card">
+            <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blade007_ExploreTrainings_TeamsSupport_Icon_75x75_2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=80&hei=80&qlt=100&fmt=png-alpha&fit=constrain" 
+            width: 1px>            
+            <div style="width: 95%;">
+                <h1>Teams support</h1>
+                <p>Find how-to articles, tutorials, and instructional content.
+                </p>
+                <div class="link">
+                    <a>Learn more</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blade007_ExploreTrainings_MonthlyWebcast_Icon_75x75_2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=90&hei=80&qlt=100&fmt=png-alpha&fit=constrain">
+            <div style="width: 95%;">
+                <h1>Monthly webcast</h1>
+                <p>Get free training with an instructor.
+                </p>
+                <div class="link">
+                    <a>Learn more</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blade007_ExploreTrainings_TeamsBlog_Icon_75x75_2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=90&hei=80&qlt=100&fmt=png-alpha&fit=constrain">
+            <div style="width: 95%;">
+                <h1>Teams blog</h1>
+                <p>Learn about new feature releases, best practices, and trends.
+                </p>
+                <div class="link">
+                    <a>Visit the blog</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blade007_ExploreTrainings_News_and_Social_Icon_75x75_2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=92&hei=80&qlt=100&fmt=png-alpha&fit=constrain">
+            <h1>News and social</h1>
+            <p>БHelp drive the transition to inclusive online or hybrid learning, build confidence with remote learning tools, and maintain student engagement.
+            </p>
+            <div class="link">
+                <a>Follow us on Twitter</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </div>
+        </div>
+
+    </div>
+
+        </div>
+
+    </div>
+    <hr class="solid">
+
+    <div class="Socials">
+        <p>Follow Microsoft Teams</p>
+        <div class="social-icons">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Twitter-34?scl=1">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Instagram%202x?scl=1">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/YouTube%202x?scl=1">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blog?scl=1">
+        </div>
+    </div>
+    
+    
+    <footer>
+        <div style="display: flex; flex-direction: row; margin: 0 60px 0 60px; justify-content: space-around;">
+            <div>
+                <h1>What's new?</h1>
+                <a>Surface Laptop Studio 2 </a>
+                <a>Surface Laptop Go 3</a>
+                <a>Surface Pro 9                </a>
+                <a>Surface Laptop 5</a>
+                <a>Surface Studio 2+</a>
+                <a>Copilot in Windows</a>
+                <a>Microsoft 365</a>
+                <a>Windows 11 apps</a>
+            </div>
+            <div>
+                <h1>Microsoft Store</h1>
+                <a>Account profile</a>
+                <a>Download Center</a>
+                <a>Microsoft Store support</a>
+                <a>Returns</a>
+                <a>Order tracking</a>
+                <a>Certified Refurbished</a>
+                <a>Microsoft Store Promise</a>
+                <a>Flexible Payments</a>
+            </div>
+            <div>
+                <h1>Education</h1>
+                <a>Microsoft in education</a>
+                <a>Devices for education</a>
+                <a>Microsoft Teams for Education</a>
+                <a>Microsoft 365 Education</a>
+                <a>How to buy for your school</a>
+                <a>Educator training and development</a>
+                <a>Deals for students and narents</a>
+                <a>Azure for students</a>
+            </div>
+            <div>
+                <h1>Business</h1>
+                <a>Microsoft Cloud</a>
+                <a>Microsoft Securitv</a>
+                <a>Dynamics 365</a>
+                <a>Microsoft 365</a>
+                <a>Microsoft Power Platform</a>
+                <a>Microsoft Teams</a>
+                <a>Microsoft Industry</a>
+                <a>Small Business</a>
+            </div>
+            <div>
+                <h1>Developer & IT</h1>
+                <a>Azure</a>
+                <a>Developer Center</a>
+                <a>Documentation</a>
+                <a>Microsoft Learn</a>
+                <a>Microsoft Tech Community</a>
+                <a>Azure Marketplace</a>
+                <a>AppSource</a>
+                <a>Visual Studio</a>
+            </div>
+            <div>
+                <h1>Company?</h1>
+                <a>Careers</a>
+                <a>About Microsoft</a>
+                <a>Company news</a>
+                <a>Privacy at Microsoft</a>
+                <a>Investors</a>
+                <a>Diversity and inclusion</a>
+                <a>Accessibility</a>
+                <a>Sustainability</a>
+            </div>
+        </div>
+        <div
+            style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin:0 40px 0 40px">
+            <div style="display: flex; flex-direction: row; align-items: center; padding: 10px 0 10px 0;">
+                <a>English</a>
+                <a>Your Privacy Choices</a>
+                <a>Sitemap</a>
+                <a>Сontact Microsoft</a>
+                <a>Privacy</a>
+                <a>Terms of use</a>
+                <a>Trademarks</a>
+                <a>Safety & eco</a>
+                <a>Recycling</a>
+                <a>About our ads</a>
+            <p>©Microsoft 2024</p>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
