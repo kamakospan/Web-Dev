@@ -12,9 +12,7 @@ export class ProductListComponent {
 
   share(link: string) {
     const shareMessage = `Product:  ${link}`;
-    const telegramLink = `https://t.me/share/url?url=${encodeURIComponent(
-      shareMessage
-    )}`;
+    const telegramLink = `https://t.me/share/url?url=${encodeURIComponent(shareMessage)}`;
     window.location.href = telegramLink;
   }
 
