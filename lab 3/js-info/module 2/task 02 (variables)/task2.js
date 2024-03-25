@@ -1,2 +1,2 @@
 const PLANET = 'Earth';
-let currentUser = 'Uldana';
+let currentUser = 'Kama';
