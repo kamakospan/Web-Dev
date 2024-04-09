@@ -33,3 +33,4 @@ class VacancyDetailAPIView(generics.RetrieveAPIView):
 class TopTenVacanciesAPIView(generics.ListAPIView):
     queryset = Vacancy.objects.order_by('salary')[:10]
     serializer_class = VacancySerializer
+
