@@ -31,6 +31,6 @@ class VacancyDetailAPIView(generics.RetrieveAPIView):
     lookup_field = 'id'
 
 class TopTenVacanciesAPIView(generics.ListAPIView):
-    queryset = Vacancy.objects.order_by('salary')[:10]
+    queryset = Vacancy.objects.order_by('-id')[:10]  # Example ordering by id
     serializer_class = VacancySerializer
 
