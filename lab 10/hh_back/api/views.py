@@ -69,3 +69,14 @@ class TopTenVacanciesAPIView(generics.ListAPIView):
     queryset = Vacancy.objects.order_by('salary')[:10]
     serializer_class = VacancySerializer
 
+@api_view(['GET'])
+def company_list(request):
+    companies = Company.objects.all()
+    serializer = CompanySerializer(companies, many=True)
+    return Response(serializer.data)
+
+@api_view(['GET'])
+def company_detail(request, pk):
+    company = Company.objects.get(pk = pk)
+    serializer = CompanySerializer(company)
+    return Response(serializer.data)
